@@ -21,7 +21,7 @@ void rearrangeArray(int arr[], int n) {
             }
         }
         for(int i=0; i<n; i++){
-            cout<<result[i];
+            cout<<result[i]<<" ";
         }
       
 }
