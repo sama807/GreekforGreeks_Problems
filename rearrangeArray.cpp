@@ -28,6 +28,6 @@ void rearrangeArray(int arr[], int n) {
 
 int main(){
 
-    int arr[] = {1,9,2,8,3,7,4,6,5};
+    int arr[] = {1,-1,2,8,3};
     rearrangeArray(arr, 9);
 }
