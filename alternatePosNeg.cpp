@@ -37,9 +37,9 @@ void rearrange(int arr[], int n) {
             arr[j] = result[index];
             index++;
         }
-        if(index==n+1){
+        if(index== n){
             int m= i;
-            while(l!=n){
+            while(l!=index){
                 arr[m] = result[l];
                 m++;
                 l++;
