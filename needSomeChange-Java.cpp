@@ -3,6 +3,8 @@
 #include<algorithm>
 using namespace std;
 
+//Given an array A of N positive integers. The task is to swap every ith element of the array with (i+2)th element.
+
 void swapElements(int a[], int n) {
         
     int temp;
